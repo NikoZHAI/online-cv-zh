@@ -3,7 +3,7 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -44,7 +44,7 @@ sidebar:
       #   link:
 
 career-profile:
-    title: 个人总结
+    title: Summary
     summary: |
       两年 CFD/CAE 软件开发经验。熟悉 C/C++/CUDA/Python/NodeJs 编程, 有良好的编码习惯。能独立设计 CFD 求解器架构，搭建开发框架。有带新和带小规模团队经验。
       有数值方法(计算水力学)、计算几何、运筹优化、机器学习等相关经验。开发中能快速定位和解决 bug, 有性能调优经验。
@@ -69,6 +69,8 @@ education:
       details: |
           - Awarded with Scholarship for 2012-2015
           - Was top 20 in my department
+
+
 experiences:
     - role: CFD/CAE 模型软件工程师
       time: 2019.01 - 至今
@@ -88,6 +90,7 @@ experiences:
 
         曾获贵仁科技 2019 年优秀员工奖
 
+
     - role: 助理研究员 (实习)
       time: 2018.03 - 2018.09
       company: 联合国教科文水利环境工程学院, 代尔夫特, 荷兰
@@ -96,14 +99,33 @@ experiences:
           - 实现 MOPRISM 算法工具 [samolib](https://github.com/NikoZHAI/samolib)
           - 通过对比试验进行结果比对与效率测试
           - 撰写报告
+  
+
     - role: 助理研究员 (实习)
       time: 2017.06 - 2017.10
       company: 联合国教科文水利环境工程学院, 代尔夫特, 荷兰
       details: |
         实现基于 web 的水文模型工具 [HBV-WEB](https://github.com/NikoZHAI/lumphydro)
+
+
     - role: 学生实习
       time: 2016.06 - 2016.09
       company: 尼斯大学水利工程学院
       details: |
         乍得湖水文气象数据收集整理，撰写数据分析报告
 
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: C/C++/CUDA/Python/NodeJs
+        level: 
+
+      - name: Python/JavaScript/R
+        level:
+
+      - name: Make/CMake
+        level: 
+
+      - name: Linux
+        level:
