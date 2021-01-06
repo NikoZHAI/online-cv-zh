@@ -1,0 +1,95 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Huanyu ZHAI
+    tagline: Software Engineer (CFD/CAE)
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: huanyu.zhai@outlook.com
+    phone: 13604882088
+    wechat: 13604882088
+    website: 
+    linkedin: 环宇-翟-975355144
+    github: NikoZHAI
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: 7441049/niko-z
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Professional
+
+    interests:
+      # - item: Climbing
+      #   link:
+
+      # - item: Snowboarding
+      #   link:
+
+      # - item: Cooking
+      #   link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      After receiving my M.Eng., I have become a CFD/CAE software engineer.
+      With 3-year experience in software development, gradually, I'm mastering both the programming languages and the workflow of software development.
+      I mainly program in C/C++/CUDA, sometimes script in Python and NodeJs. I have experience in CFD software architect, framework design and implementation, numerical methods, computational geometry, CUDA acceleration and general algorithms.
+      I have a hard-working, listening, and cooperating personality, and also have experiences in guiding new colleagues and managing a 3-people team.
+      I'm willing to continue my career in the field of general software engineering.
+
+education:
+    - degree: M.Eng. in Hydroinformatics
+      university: Polytech Nice-Sophia, France
+      time: 2015 - 2018
+      details: |
+          - Mainly studied Computational Hydraulics and Hydrological Modeling
+          - Was member of the student union
+    - degree: B.Eng. in Irragation and Drainage Engineering
+      university: Hohai University, Nan Jing, China
+      time: 2012 - 2015
+      details: |
+          - Awarded with Scholarship for 2012-2015
+          - Was top 20 in my department
+experiences:
+    - role: CFD/CAE Software Engineer
+      time: 2019.01 - Present
+      company: Keepsoft, Hang Zhou, China
+      details: |
+        Dedicated in developing both the CFD engine and the CAE utility toolset.
+          - Design CFD engine architect, build development framework and workflow.
+          - Implement algorithms for both the PDE solver and the CAE pre/post-proccessing tool.
+          - GPU acceleration (CUDA) of the CFD engine.
+          - My implementation of two algorithms are proven to be more robust and efficient than some equivalent commercial ones, one for planar-graph embedding and one for geometrical data denoising (ex. ).
+          - Test software behaviour and validate results.
+          - Documenting.
+          - Also worked on other short-term projects involving global optimazation, mesh generation, rendering, etc.
+          - Ranked top10 employee in 2019
+    - role: Assistant Researcher (Intern)
+      time: 2018.03 - 2018.09
+      company: UNESCO-IHE, Delft, Netherlands
+      details: |
+        Carry out an multi-objective optimization framework using surrogate models, [MOPRISM](https://github.com/NikoZHAI/samolib/blob/master/Report.pdf)
+          - Implementation of [the optimization framework](https://github.com/NikoZHAI/samolib)
+          - Test, validation and comparison
+    - role: Assistant Researcher (Intern)
+      time: 2017.06 - 2017.10
+      company: UNESCO-IHE, Delft, Netherlands
+      details: |
+        Implementation of a web-based hydrological model, [HBV-WEB](https://github.com/NikoZHAI/lumphydro)
+          - Use of the Django framework, d3.js.
+          - Learn the basics of web development.
