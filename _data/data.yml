@@ -7,8 +7,8 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Huanyu ZHAI
-    tagline: Software Engineer (CFD/CAE)
+    name: 翟环宇
+    tagline: C/C++/CUDA 软件工程师
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -27,11 +27,11 @@ sidebar:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
-        level: Professional
+      - idiom: 英语
+        level: 读写流利
 
-      - idiom: French
-        level: Professional
+      - idiom: 法语
+        level: 读写流利
 
     interests:
       # - item: Climbing
@@ -44,52 +44,61 @@ sidebar:
       #   link:
 
 career-profile:
-    title: Career Profile
+    title: 个人总结
     summary: |
-      After receiving my M.Eng., I have become a CFD/CAE software engineer.
-      With 3-year experience in software development, gradually, I'm mastering both the programming languages and the workflow of software development.
-      I mainly program in C/C++/CUDA, sometimes script in Python and NodeJs. I have experience in CFD software architect, framework design and implementation, numerical methods, computational geometry, CUDA acceleration and general algorithms.
-      I have a hard-working, listening, and cooperating personality, and also have experiences in guiding new colleagues and managing a 3-people team.
-      I'm willing to continue my career in the field of general software engineering.
+      三年 CFD/CAE 软件开发经验。熟悉 C/C++/CUDA/Python/NodeJs 编程, 有良好的编码习惯。能独立设计 CFD 求解器架构，搭建开发框架。有带新和带小规模团队经验。
+      有数值方法(计算水力学)、计算几何、运筹优化、机器学习等相关经验。开发中能快速定位和解决 bug, 有性能调优经验。
+      学习、接受能力强，有工程背景，能快速理解和上手业务。英语流利，沟通、文档读写无障碍。工作中有合作精神，善于沟通，抗压能力强。
 
 education:
-    - degree: M.Eng. in Hydroinformatics
-      university: Polytech Nice-Sophia, France
+    - degree: 水利信息工程学硕士
+      university: 尼斯大学，法国
       time: 2015 - 2018
       details: |
           - Mainly studied Computational Hydraulics and Hydrological Modeling
           - Was member of the student union
-    - degree: B.Eng. in Irragation and Drainage Engineering
-      university: Hohai University, Nan Jing, China
+    - degree: 水资源工程专业交流生
+      university: 鲁汶大学，比利时
+      time: 2017.03 - 2017.06
+      details: |
+          - Mainly studied Computational Hydraulics and Hydrological Modeling
+          - Was member of the student union
+    - degree: 农业水利工程学士
+      university: 河海大学
       time: 2012 - 2015
       details: |
           - Awarded with Scholarship for 2012-2015
           - Was top 20 in my department
 experiences:
-    - role: CFD/CAE Software Engineer
-      time: 2019.01 - Present
-      company: Keepsoft, Hang Zhou, China
+    - role: CFD/CAE 模型软件工程师
+      time: 2019.01 - 至今
+      company: 浙江贵仁信息科技股份有限公司
       details: |
-        Dedicated in developing both the CFD engine and the CAE utility toolset.
-          - Design CFD engine architect, build development framework and workflow.
-          - Implement algorithms for both the PDE solver and the CAE pre/post-proccessing tool.
-          - GPU acceleration (CUDA) of the CFD engine.
-          - My implementation of two algorithms are proven to be more robust and efficient than some equivalent commercial ones, one for planar-graph embedding and one for geometrical data denoising (ex. ).
-          - Test software behaviour and validate results.
-          - Documenting.
-          - Also worked on other short-term projects involving global optimazation, mesh generation, rendering, etc.
-          - Ranked top10 employee in 2019
-    - role: Assistant Researcher (Intern)
+        致力于公司水动力模型引擎以及建模工具的开发：
+          - 负责模型引擎重构、开发框架搭建以及算法实现
+          - 负责建模工具中的几何算法库的实现(平面图算法、网格剖分算法等)， 其中平面图分区、清理等算法功能的可靠性和效率远优于许多同行业商业软件。例如北京的 GIS 路网数据(>300K 节点)可在秒级完成计算。
+          - 负责模型引擎的 GPU 加速开发 (相较于 CPU 版本通常有 20~50 倍的效率提升)
+        参与公司模型引擎外的开发工作:
+          - 负责深圳市光明新区海绵城市建设方案运筹优化工具 (遗传算法)
+          - 参与自然资源部草原模型开发
+          - 负责基于贝叶斯模型平均的多水文模型开发
+        曾获贵仁科技 2019 年优秀员工奖
+    - role: 助理研究员 (实习)
       time: 2018.03 - 2018.09
-      company: UNESCO-IHE, Delft, Netherlands
+      company: 联合国教科文水利环境工程学院, 代尔夫特, 荷兰
       details: |
-        Carry out an multi-objective optimization framework using surrogate models, [MOPRISM](https://github.com/NikoZHAI/samolib/blob/master/Report.pdf)
-          - Implementation of [the optimization framework](https://github.com/NikoZHAI/samolib)
-          - Test, validation and comparison
-    - role: Assistant Researcher (Intern)
+        研究基于机器学习代理模型的多目标优化算法 [MOPRISM](https://github.com/NikoZHAI/samolib/blob/master/Report.pdf):
+          - 实现 MOPRISM 算法工具 [samolib](https://github.com/NikoZHAI/samolib)
+          - 通过对比试验进行结果比对与效率测试
+          - 撰写报告
+    - role: 助理研究员 (实习)
       time: 2017.06 - 2017.10
-      company: UNESCO-IHE, Delft, Netherlands
+      company: 联合国教科文水利环境工程学院, 代尔夫特, 荷兰
       details: |
-        Implementation of a web-based hydrological model, [HBV-WEB](https://github.com/NikoZHAI/lumphydro)
-          - Use of the Django framework, d3.js.
-          - Learn the basics of web development.
+        实现基于 web 的水文模型工具 [HBV-WEB](https://github.com/NikoZHAI/lumphydro)
+    - role: 学生实习
+      time: 2016.06 - 2016.09
+      company: 尼斯大学水利工程学院
+      details: |
+        乍得湖水文气象数据收集整理，撰写数据分析报告
+
