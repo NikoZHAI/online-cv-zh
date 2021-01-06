@@ -95,8 +95,8 @@ experiences:
       time: 2018.03 - 2018.09
       company: 联合国教科文水利环境工程学院, 代尔夫特, 荷兰
       details: |
-        研究基于机器学习代理模型的多目标优化算法 **[MOPRISM]**(https://github.com/NikoZHAI/samolib/blob/master/Report.pdf):
-          - 实现 MOPRISM 算法工具 **[samolib]**(https://github.com/NikoZHAI/samolib)
+        研究基于机器学习代理模型的多目标优化算法 [**MOPRISM**](https://github.com/NikoZHAI/samolib/blob/master/Report.pdf):
+          - 实现 MOPRISM 算法工具 [**samolib**](https://github.com/NikoZHAI/samolib)
           - 通过对比试验进行结果比对与效率测试
           - 撰写报告
   
@@ -105,7 +105,7 @@ experiences:
       time: 2017.06 - 2017.10
       company: 联合国教科文水利环境工程学院, 代尔夫特, 荷兰
       details: |
-        实现基于 web 的水文模型工具 **[HBV-WEB]**(https://github.com/NikoZHAI/lumphydro)
+        实现基于 web 的水文模型工具 [**HBV-WEB**](https://github.com/NikoZHAI/lumphydro)
 
 
     - role: 学生实习
