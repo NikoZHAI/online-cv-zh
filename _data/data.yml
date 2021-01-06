@@ -122,10 +122,13 @@ skills:
         desc: 语法熟练；熟悉stl；熟悉调试、性能调优流程
 
       - name: Python / JavaScript / R
-        desc: 熟悉语法；我常用这些脚本来做结果分析、数据可视化以及工具脚本等
+        desc: 常用脚本来做结果分析、数据可视化以及其它一些小工具
 
       - name: Make / CMake
         desc: 运用比较熟练，可独立搭建模块化的多语言编译脚本
 
+      - name: Docker
+        desc: 用于搭建 CI 环境以及生产环境，会做 GPU 虚拟化
+      
       - name: Linux
         desc: 日常开发环境
