@@ -119,13 +119,9 @@ skills:
 
     toolset:
       - name: C/C++/CUDA/Python/NodeJs
-        level: 
 
       - name: Python/JavaScript/R
-        level:
 
       - name: Make/CMake
-        level: 
 
       - name: Linux
-        level:
