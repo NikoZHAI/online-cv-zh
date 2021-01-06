@@ -119,9 +119,13 @@ skills:
 
     toolset:
       - name: C / C++ / CUDA
+        desc: 语法熟练；熟悉stl；熟悉调试、性能调优流程
 
       - name: Python / JavaScript / R
+        desc: 熟悉语法；我常用这些脚本来做结果分析、数据可视化以及工具脚本等
 
       - name: Make / CMake
+        desc: 运用比较熟练，可独立搭建模块化的多语言编译脚本
 
       - name: Linux
+        desc: 日常开发环境
