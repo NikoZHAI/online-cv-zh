@@ -59,7 +59,7 @@ education:
           - Was member of the student union
     - degree: 水资源工程专业交流生
       university: 鲁汶大学，比利时
-      time: 2017.03 - 2017.06
+      time: 2017.02 - 2017.06
       details: |
           - Mainly studied Computational Hydraulics and Hydrological Modeling
           - Was member of the student union
@@ -78,11 +78,14 @@ experiences:
           - 负责模型引擎重构、开发框架搭建以及算法实现
           - 负责建模工具中的几何算法库的实现(平面图算法、网格剖分算法等)， 其中平面图分区、清理等算法功能的可靠性和效率远优于许多同行业商业软件。例如北京的 GIS 路网数据(>300K 节点)可在秒级完成计算。
           - 负责模型引擎的 GPU 加速开发 (相较于 CPU 版本通常有 20~50 倍的效率提升)
+
         参与公司模型引擎外的开发工作:
           - 负责深圳市光明新区海绵城市建设方案运筹优化工具 (遗传算法)
           - 参与自然资源部草原模型开发
           - 负责基于贝叶斯模型平均的多水文模型开发
+
         曾获贵仁科技 2019 年优秀员工奖
+        
     - role: 助理研究员 (实习)
       time: 2018.03 - 2018.09
       company: 联合国教科文水利环境工程学院, 代尔夫特, 荷兰
