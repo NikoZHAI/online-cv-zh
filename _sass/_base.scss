@@ -76,7 +76,7 @@ p {
         max-width: 100px;
         margin-bottom: 15px;
         border: 0px solid #fff;
-        border-radius: 100%;
+        border-radius: 15%;
         box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     }
     .contact-list {
@@ -124,6 +124,12 @@ p {
             color: rgba(256, 256, 256, 0.6);
             font-weight: 500;
             margin-bottom: 0px;
+        }
+        .details {
+            color: rgba(256, 256, 256, 0.6);
+            font-weight: 500;
+            margin-top: -13px;
+            margin-bottom: 15px;
         }
     }
     .languages-container {
@@ -184,8 +190,8 @@ p {
         color: $text-color;
         font-size: 16px;
         margin-top: 0;
-        margin-bottom: 0;
-        font-weight: 500;
+        margin-bottom: 1;
+        font-weight: 550;
     }
     .time {
         position: absolute;
@@ -271,4 +277,12 @@ p {
         color: $heart;
     }
 
+}
+
+li p {
+    margin-bottom: 0px;
+}
+
+div.education-container p {
+    margin-bottom: 0px;
 }
